@@ -11,9 +11,9 @@
 
 ### 样例
 
-三言（新闻媒体app）用户提币 yant （三言app内的积分映射的币）到 bhex 去卖
+三言（新闻媒体app）用户提币 yant （三言app内的积分映射的币）到 wallex 去卖
 
-![三言app用户提币yant到bhex](oauth_example.png)
+![三言app用户提币yant到wallex](oauth_example.png)
 
 ### OAuth 在第三方 app 中的使用流程
 

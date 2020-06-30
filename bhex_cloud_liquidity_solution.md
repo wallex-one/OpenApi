@@ -2,8 +2,8 @@
 
 ## 零、服务对象
 
-- 非 bhex cloud 交易所，无法直接使用 bhex cloud 底层流动性共享方案
-- bhex cloud 交易所客户，因为某些原因不能直接使用 bhex cloud 底层流动性共享方案
+- 非 wallex cloud 交易所，无法直接使用 wallex cloud 底层流动性共享方案
+- wallex cloud 交易所客户，因为某些原因不能直接使用 wallex cloud 底层流动性共享方案
 
 
 ## 一、服务的价值和意义

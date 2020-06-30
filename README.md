@@ -47,7 +47,7 @@ BHOP Broker API 由以下五部分组成
 建议客户操作：
 
 * fork 上面的 github 仓库
-* 修改仓库中所有的 bhex.com 字样，修改为自己的域名（子域名 api、ws 保持不变）
+* 修改仓库中所有的 wallex.one 字样，修改为自己的域名（子域名 api、ws 保持不变）
 * 建一个自己的 github 仓库，上传修改过的文档和 sdk
 * 将自己的 github 仓库地址配置到券商网站的页脚导航里
 
@@ -168,7 +168,7 @@ Org API 接口不支持 page + num 翻页，只支持 “下一页” “上一�
 
 #### 3.1）业务全景流程
 
-![BHEX Cloud 业务全景图](bhex_cloud_concept.png)
+![wallex Cloud 业务全景图](wallex_cloud_concept.png)
 
 * 平台钱包支持币
 * 交易所上币（可配置：合作券商必须同步上，或者由券商自己选择上或不上）

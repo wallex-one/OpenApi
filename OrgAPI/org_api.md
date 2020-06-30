@@ -32,7 +32,7 @@
 
 ## 认证方式
 
- - `access key`和`secret key`由BHEX随机生成。`secret key`采用加密存储，丢失无法恢复，请妥善存储保管。
+ - `access key`和`secret key`由wallex随机生成。`secret key`采用加密存储，丢失无法恢复，请妥善存储保管。
  - 所有REST请求都需要包含 `X-ACCESS-KEY`
  - 签名参数 `signature` 是将请求参数按照ASCII排序后，用`secret key`作为加密秘钥，使用 `HMAC SHA256` 方法加密得到
 
@@ -307,7 +307,7 @@
             "registerType":1, // 注册方式 1 手机 2 邮箱
             "nationalCode":"86", // 手机号对应的国家区号
             "mobile":"186****1314", // 手机号
-            "email":"p********n@bhex.io", // 邮箱
+            "email":"p********n@wallex.io", // 邮箱
             "bindGA":true, // 是否绑定GA认证
             "bindTradePwd":true, // 是否绑定交易密码
             "userType":1, // 忽略
@@ -340,7 +340,7 @@
             "registerType":1, // 注册方式 1 手机 2 邮箱
             "nationalCode":"86", // 手机号对应的国家区号
             "mobile":"186****1314", // 手机号
-            "email":"p********n@bhex.io", // 邮箱
+            "email":"p********n@wallex.io", // 邮箱
             "bindGA":true, // 是否绑定GA认证
             "bindTradePwd":true, // 是否绑定交易密码
             "userType":1, // 忽略
@@ -378,7 +378,7 @@
             "registerType":1, // 注册方式 1 手机 2 邮箱
             "nationalCode":"86", // 手机号对应的国家区号
             "mobile":"186****1314", // 手机号
-            "email":"p********n@bhex.io", // 邮箱
+            "email":"p********n@wallex.io", // 邮箱
             "bindGA":true, // 是否绑定GA认证
             "bindTradePwd":true, // 是否绑定交易密码
             "userType":1, // 忽略
@@ -416,7 +416,7 @@
             "registerType":1, // 注册方式 1 手机 2 邮箱
             "nationalCode":"86", // 手机号对应的国家区号
             "mobile":"186****1314", // 手机号
-            "email":"p********n@bhex.io", // 邮箱
+            "email":"p********n@wallex.io", // 邮箱
             "bindGA":true, // 是否绑定GA认证
             "bindTradePwd":true, // 是否绑定交易密码
             "userType":1, // 忽略
@@ -474,7 +474,7 @@
             "registerType":1, // 注册方式 1 手机 2 邮箱
             "nationalCode":"86", // 手机号对应的国家区号
             "mobile":"186****1314", // 手机号
-            "email":"p********n@bhex.io", // 邮箱
+            "email":"p********n@wallex.io", // 邮箱
             "bindGA":true, // 是否绑定GA认证
             "bindTradePwd":true, // 是否绑定交易密码
             "userType":1, // 忽略
@@ -615,7 +615,7 @@
                 "userId":"97298429944266752", // 邀请注册用户id
                 "nationalCode":"86", // 手机号对应的国家区号
                 "mobile":"186****1314", // 手机号
-                "email":"p********n@bhex.io", // 邮箱
+                "email":"p********n@wallex.io", // 邮箱
                 "registerType":1, // 注册方式
                 "verifyStatus":2, // kyc状态: 0 未提交 1 审核中 2 审核通过 3 审核不通过
                 "inviteType":"1", // 邀请类型 1 直接邀请 2 简介邀请
@@ -660,7 +660,7 @@
                 "userId":"97298429944266752",
                 "nationalCode":"86",
                 "mobile":"186****1314", // 手机号
-                "email":"p********n@bhex.io", // 邮箱
+                "email":"p********n@wallex.io", // 邮箱
                 "registerType":1, // 注册方式，1 手机 2 邮箱
                 "userType":1, // 忽略
                 "verifyStatus":2, // kyc状态: 0 未提交 1 审核中 2 审核通过 3 审核不通过
@@ -856,7 +856,7 @@
         "status":0,
         "data":{
             "secretKey":"EMCNV5EYJKMT7FU5",
-            "authUrl":"otpauth://totp/BHEXTEST:156****9306?secret=EMCNV5EYJKMT7FU5&issuer=BHEXTEST",
+            "authUrl":"otpauth://totp/wallexTEST:156****9306?secret=EMCNV5EYJKMT7FU5&issuer=wallexTEST",
             "qrcode":"iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQAAAACFI5MzAAABcUlEQVR42u2X4YoDIQyEhbyWkFcP+FoBbyZ6Zdty/5z75baF6rewGieTbJt/Xe2SSy5RkWjN5hz4jrQ1kJCaG4GZgT811pAwDtJmdN8DFQnLZmmv21QkHZ/maUpC6NzpHogIRTF+ry/tnCO8EM/Ayfl3Lpwj0GAgmKXE7L27iODMOo4rsAZENR87PUsmEhe/3ksbWIyIFGAWI6I8OhUBahVU7rovICFIKWiDGkzL/sisswRPbXQjPhspFi4itCOjuQYODyuYIpKNSyjFJyx2qgiVge0hrZjF25kEhGuAJ6Fc4I7+jOhZwscGS1IgoL4MVkEQy7GiSteIpyMdJbF0kVUE/RnRs6S6Bjrf7lJcRWB6yCpWDKoxTEVoFXsiVv8gIVslsbq68CEinKDWbTn5W208SaopYevI4vQR0aMETdYqSGOdnZKwOiG52ltlUpCxy2x2V5H1DlGCZNGYIlIKwSLoFTCMT+0cI/dd85JL/o38AAYjsZpyhx7GAAAAAElFTkSuQmCC"
         }
     }
@@ -3719,7 +3719,7 @@
     
     
 ### 子账户关闭转入转出功能
-* 接口地址：POST http://www.bhex.cn/v2/org/account/close/sub_account/transfer/limit
+* 接口地址：POST http://www.wallex.cn/v2/org/account/close/sub_account/transfer/limit
 * 是否登录：是
 * 请求参数：
 

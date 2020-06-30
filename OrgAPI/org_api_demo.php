@@ -3,7 +3,7 @@
 $base_url = 'https://www.xxx.xx/api/v2/org/';
 $api_key = 'xxx';
 $secret_key = 'xxx';
-$http_header = array('X-ACCESS-KEY:' . $api_key, 'User-Agent:Bhex-P 1.0');
+$http_header = array('X-ACCESS-KEY:' . $api_key, 'User-Agent:wallex-P 1.0');
 
 function post_data($url = '', $post_data = array())
 {

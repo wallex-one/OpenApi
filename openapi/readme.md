@@ -1,1 +1,1 @@
-https://github.com/bhexopen/BHEX-OpenApi
+https://github.com/wallexopen/wallex-OpenApi

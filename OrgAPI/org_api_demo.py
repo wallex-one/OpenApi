@@ -18,7 +18,7 @@ class Request(object):
         kwargs["timeout"] = 60
 
         kwargs["headers"] = {
-            "User-Agent": "Bhex-P 1.0",
+            "User-Agent": "wallex-P 1.0",
             "X-ACCESS-KEY": self.api_key,
         }
         response = requests.post(self.entry_point + uri, data=data, **kwargs)

@@ -8,8 +8,8 @@
 
 ### Java 版本
 
-[broker-datasync](https://gitlab.com/bhex/broker-datasync)
+[broker-datasync](https://gitlab.com/wallex/broker-datasync)
 
 ## 数据库表结构
 
-[schema.sql](https://gitlab.com/bhex/broker-datasync/blob/master/broker-websocket-client/src/main/resources/db/schema.sql)
+[schema.sql](https://gitlab.com/wallex/broker-datasync/blob/master/broker-websocket-client/src/main/resources/db/schema.sql)
