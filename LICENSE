@@ -1,10 +1,13 @@
+Copyright 2018 WEX Open
 
-        Bluehelix Opensource License
-        
-1. 本代码仓库中所有带有 Bluehelix (包括不限于wallex、BHOP等关联实体) 版权申明的代码，版权归 Bluehelix 所有，保留所有权限。
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-2. Bluehelix 版权所有的代码，不属于开源代码，禁止在非书面授权情况下做任何用途，包括不限于技术交流、教学、演示、商业使用等。如果在非授权情况下接触到 Bluehelix 版权所有的代码，请立即删除，并联系 Bluehelix 公司
+    http://www.apache.org/licenses/LICENSE-2.0
 
-3. 商业授权使用 Bluehelix 版本所有的代码时，仅限授权范围内人员阅读和使用代码，禁止向任何第三方出示、分发或分享代码。修改代码需要征得 Bluehelix 公司同意。
-
-4. Bluehelix 版权所有的代码可能会使用带有不同版权协议的开源或闭源 lib 库。如果 lib 库版权申明与本协议冲突，Bluehelix 将在收到版权人的投诉后立即删除 lib 库，此类行为不影响 Bluehelix 本身代码的版权申明。
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
